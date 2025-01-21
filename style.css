@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 251, 252);
+    transition: font-size 0.3s ease;
+    /* Smooth transition effect */
+    cursor: pointer;
+    border: 3px solid;
+    border-color: rgb(99, 100, 101);
+    letter-spacing: 1.5vw;
+    opacity: 80%;
+    width: 25vw;
+    margin: auto;
+}
+
+h1:hover {
+    opacity: 100%;
+    font-size: 1.6vw;
+}
+
+.MOUNTAINS h2 {
+    margin-top: 5vw;
+    text-align: center;
+}
+
+
+h2:hover {
+    background-color: rgb(147, 67, 67);
+    color: white;
+    cursor: pointer;
+}
+
+.images {
+
+
+    justify-content: center;
+    gap: 10px;
+    margin: 23px;
+}
+
+p {
+    text-align: center;
+    left: 30vw;
+    font-family: "Macondo", serif;
+    font-weight: 400;
+    font-size: 2vw;
+    opacity: 85%;
+    cursor: pointer;
+    font-style: italic;
+    font-style: oblique;
+}
+
+p:hover {
+    opacity: 100%;
+}
+
+.geo {
+    border: 1px solid;
+    position: absolute;
+    margin: auto;
+    left: 25vw;
+    top: 4vw;
+    word-spacing: 8vw;
+    /* h-offset v-offset blur spread color inset; */
+    box-shadow: 7px 6px 2px #48393988;
+}
+
+.geo a {
+    text-decoration: none;
+    color: black;
+}
+
+.geo a:hover {
+    color: blue;
+}
